@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Top Companies</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f4f4;
+      padding: 30px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h2 {
+      margin-bottom: 10px;
+      color: #0077cc;
+    }
+
+    .card p {
+      color: #555;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Top IT Companies</h1>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>Google</h2>
+      <p>Global technology company focused on search engine, cloud computing, and AI.</p>
+    </div>
+
+    <div class="card">
+      <h2>Microsoft</h2>
+      <p>Software company known for Windows, Azure, Office, and AI technologies.</p>
+    </div>
+
+    <div class="card">
+      <h2>Amazon</h2>
+      <p>E-commerce and cloud computing giant with AWS services worldwide.</p>
+    </div>
+
+    <div class="card">
+      <h2>Apple</h2>
+      <p>Famous for iPhone, MacBook, iOS ecosystem, and premium hardware.</p>
+    </div>
+
+    <div class="card">
+      <h2>Infosys</h2>
+      <p>Indian multinational IT company providing business consulting and services.</p>
+    </div>
+
+    <div class="card">
+      <h2>TCS</h2>
+      <p>Tata Consultancy Services is one of the largest IT service companies in India.</p>
+    </div>
+
+    <div class="card">
+      <h2>Wipro</h2>
+      <p>Leading technology services and consulting company headquartered in India.</p>
+    </div>
+
+    <div class="card">
+      <h2>Accenture</h2>
+      <p>Global professional services company specializing in digital and cloud solutions.</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
